@@ -2,6 +2,11 @@
 
 Welcome to Lenarge API! This is the README file for our homepage, which provides information on how to use our API Public endpoints.
 
+```
+PRODUCTION API Url: https://api.lenarge.com.br
+STAGING API Url: https://api.dev.lenarge.com.br
+```
+
 ## Authentication
 
 Our API uses the Header Authorization model with the Bearer API_KEY authentication method. To authenticate your requests, you must include your API key in the Authorization header of your HTTP request. The header should be in the following format:
