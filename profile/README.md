@@ -100,4 +100,4 @@ The response includes an array of `vehicleTrackingItems`, which contain informat
 
 ## Conclusion
 
-We hope this information is helpful for using our API. If you have any questions or concerns, please contact us with english or portuguese at suporte.ti@lenarge.com.br.
+We hope this information is helpful for using our API. If you have any questions or concerns, please contact us in english or portuguese at suporte.ti@lenarge.com.br.
