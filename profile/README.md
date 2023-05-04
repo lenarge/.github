@@ -2,9 +2,16 @@
 
 Welcome to Lenarge API! This is the README file for our homepage, which provides information on how to use our API Public endpoints.
 
+## Production URL
+
 ```
-PRODUCTION API Url: https://api.lenarge.com.br
-STAGING API Url: https://api.dev.lenarge.com.br
+https://api.lenarge.com.br
+```
+
+## Staging URL
+
+```
+https://api.dev.lenarge.com.br
 ```
 
 ## Authentication
