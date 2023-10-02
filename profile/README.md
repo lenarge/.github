@@ -98,6 +98,40 @@ Example:
 
 The response includes an array of `vehicleTrackingItems`, which contain information about the tracked vehicle(s). Each `vehicleTrackingItem` includes details about the truck and trailer(s), as well as the current location of the vehicle and whether the engine is on.
 
+### GET /shipper/operations/:OPERATION_FRIENDLY_ID/license_plates/:LICENSE_PLACE/driver_metadata/
+
+This endpoint allows you to get the driver metadata that are involved in a specific vehicle(by license plate) of a shipping operation. The `OPERATION_FRIENDLY_ID` parameter is a string that represents the operation in question, which is sent to the client via email along with the API key, same as below.
+
+Example Response:
+
+```typescript
+interface DriverMetadataResponse {
+  driverTerniumInformation: {
+    cnh: string;
+    cnhExpirationDate: string;
+    cnhCategory: string;
+    cpf: string;
+    name: string;
+  };
+}
+```
+
+Example:
+
+```json
+{
+    "driverTerniumInformation": {
+          "cnh": "99999999",
+          "cnhExpirationDate": "2031-09-20T00:00:00.000Z",
+          "cnhCategory": "AE",
+          "cpf": "116.999.999-02",
+          "name": "FILIPE FRANCISCO SILVA"
+    }
+}
+```
+
+The response includes an array of `vehicleTrackingItems`, which contain information about the tracked vehicle(s). Each `vehicleTrackingItem` includes details about the truck and trailer(s), as well as the current location of the vehicle and whether the engine is on.
+
 ## Conclusion
 
 We hope this information is helpful for using our API. If you have any questions or concerns, please contact us in english or portuguese at suporte.ti@lenarge.com.br.
