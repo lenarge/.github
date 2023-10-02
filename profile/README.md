@@ -98,7 +98,7 @@ Example:
 
 The response includes an array of `vehicleTrackingItems`, which contain information about the tracked vehicle(s). Each `vehicleTrackingItem` includes details about the truck and trailer(s), as well as the current location of the vehicle and whether the engine is on.
 
-### GET /shipper/operations/:OPERATION_FRIENDLY_ID/license_plates/:LICENSE_PLACE/driver_metadata/
+### GET /shipper/operations/:OPERATION_FRIENDLY_ID/license_plates/:LICENSE_PLATE/driver_metadata/
 
 This endpoint allows you to get the driver metadata that are involved in a specific vehicle(by license plate) of a shipping operation. The `OPERATION_FRIENDLY_ID` parameter is a string that represents the operation in question, which is sent to the client via email along with the API key, same as below.
 
